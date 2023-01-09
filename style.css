@@ -1,0 +1,146 @@
+body {
+    width: 100%;
+    background-color: #f6f6f6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+h1 {
+    font-size: 4rem;
+   
+  
+   
+}
+
+a {
+    color: black;
+}
+h2{
+    font-size: 1.6rem;
+}
+
+a:hover{
+    color: #00bd9d;
+}
+
+h1, h2{
+text-transform: uppercase;
+}
+
+header{
+    width: 100%;
+    
+    text-align: center;
+    margin-bottom: 4em;
+    margin-top: 4em;
+    
+}
+.side-section{
+    width: 100%;
+    background-color: #d8f3dc;
+    
+}
+
+.padding{
+    padding: 1.25em;
+}
+
+.padding-main{
+    padding: 1.25em;
+}
+.side-section article{
+    padding: 0.5em;
+}
+.photo{
+    padding: 0.5em;
+    width: 300px;
+    height: 300px;
+    
+    border-radius: 100%;
+}
+
+ul{
+    
+    margin-top: 2em;
+    
+}
+.list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#phone, #mail{
+    text-decoration: none;
+}
+
+table tr td{
+    margin-top: 3em;
+}
+
+
+.list-icon{
+    width: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.worklist{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo{
+    margin-bottom: 2em;
+}
+
+h2{
+    margin-bottom: 0.5em;
+}
+
+main article{
+    padding: 0.5em;
+}
+.language-info p{
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.lang-wrapper{
+    display: flex;
+}
+
+
+dl dd{
+    margin-bottom: 1em;
+}
+
+dl dt{
+font-weight: bold;
+margin-bottom: 0.25em;
+}
+
+
+
+ 
+@media screen and (min-width: 796px) {
+    .container{
+        display: flex;
+    }
+
+    .main, .side-section{
+        flex-basis: 50%;
+    }
+
+    .list-item{
+       
+        flex: 1;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2em;
+        
+    }
+}
